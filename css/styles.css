@@ -449,9 +449,10 @@ li:hover .nav-link:hover:after {
 footer {
    display: flex;
    justify-content: space-between;
+   flex-direction: column;
    background: #1A2238;
    color: white;
-   padding: 2rem 4rem;
+   padding: 3rem 4rem 2rem 4rem;
    border-radius: 14px;
    margin-bottom: 1rem;
 }
@@ -459,6 +460,16 @@ footer {
 .footer-hr {
    border-top: 1px solid grey;
 }
+
+.license {
+   max-width: 80%;
+}
+
+.license a {
+   color: white;
+}
+
+
 
 /* specific modifiers */
 
