@@ -706,6 +706,7 @@ footer {
       display: flex;
       align-items: center;
       margin-bottom: 2rem;
+      text-align: center;
    }
 
    .btn-diagonal-lg {
