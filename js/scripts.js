@@ -1,3 +1,5 @@
+
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -18,6 +20,6 @@ function closeMenu() {
 }
 
 $(".btn-diagonal-lg").click(function(){
-   window.location=$(this).find("a").attr("href");
+   window.open($(this).find("a:first").attr("href"));
    return false;
-});
+ });

@@ -99,7 +99,6 @@ li {
    grid-auto-rows: auto;
    grid-template-columns: 1fr 6fr 6fr 1fr;
    overflow-y: scroll;
-
 }
 
 .content {
