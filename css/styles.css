@@ -64,6 +64,11 @@ p {
 a {
    font-size: 1.6rem;
    display: inline-block;
+   color: black;
+}
+
+a:hover {
+   color: #F55200;
 }
 
 ul {
