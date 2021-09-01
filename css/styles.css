@@ -518,8 +518,8 @@ footer {
    background: #34D1BF;
 }
 
-.orange-bg {
-   background: #F55200;
+.orange-bg-lt {
+   background: #FF691F;
 }
 
 .yellow-bg {
@@ -529,6 +529,7 @@ footer {
 .orange {
    color: #F55200;
 }
+
 
 .blue-txt {
    color: #1f7d72;
