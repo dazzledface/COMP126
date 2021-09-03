@@ -91,7 +91,7 @@ li {
    grid-template-columns: 1fr;
    grid-template-rows: 6rem 1fr;
    height: 100vh;
-   width: 100vw;
+   width: 100%;
 }
 
 .sub-grid {
@@ -104,6 +104,7 @@ li {
 .content {
    grid-column: 2/4;
    overflow-y: scroll;
+height: 100%;
 }
 
 .content::-webkit-scrollbar {
@@ -286,13 +287,17 @@ li:hover .nav-link:hover:after {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding: 2rem;
+   padding: 4rem 2rem;
    flex: 1;
    border-radius: 12px;
    background: white;
    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
    text-align: center;
    margin-top: 1rem;
+}
+
+.item-height {
+   padding: 7rem 4rem;
 }
 
 .btn-row {
@@ -414,7 +419,7 @@ li:hover .nav-link:hover:after {
 
 .btn-diagonal-lg {
    position: relative;
-   padding: 3rem;
+
    background: #34D1BF;
    color: white;
    font-weight: bold;
@@ -620,6 +625,10 @@ footer {
 @media only screen and (max-width: 950px) {
    .even-row {
       flex-direction: column;
+   }
+
+   .item-height {
+      padding: 2rem 2rem;
    }
 }
 
