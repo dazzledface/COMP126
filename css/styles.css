@@ -626,6 +626,12 @@ footer {
    content: url("data:image/svg+xml,<svg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'><polygon points='16 4, 16 16, 2 16' style='fill:orangered' /></svg>");
 }
 
+.project {
+   width: 90%;
+   padding: 0rem 1rem 1rem 1rem;
+   margin: 0 auto;
+}
+
 @media only screen and (max-width: 950px) {
    .even-row {
       flex-direction: column;
