@@ -172,7 +172,7 @@ li:hover .nav-link:hover:after {
 .nav-item {
    color: white;
    text-decoration: none;
-   padding: 0.5em;
+   padding: 0.5em 0.2em;
    position: relative;
    z-index: 0;
    cursor: pointer;
@@ -640,9 +640,8 @@ footer {
    .item-height {
       padding: 2rem 2rem;
    }
-}
 
-@media only screen and (max-width: 768px) {
+
    .sub-grid {
       display: grid;
       grid-auto-rows: auto;
