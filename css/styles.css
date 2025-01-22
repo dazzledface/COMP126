@@ -18,7 +18,8 @@ body {
 }
 
 h1 {
-  font-size: 4.4rem;
+  font-size: 4rem;
+  font-weight: lighter;
   line-height: 5rem;
   margin-block-start: 0em;
   margin-block-end: 0em;
@@ -28,7 +29,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-weight: 400;
   margin-block-start: 0em;
   margin-block-end: 0em;
@@ -463,7 +464,7 @@ li:hover .nav-link:hover:after {
 }
 
 .btn-diagonal-lg:hover::after {
-  transform: translateY(10%) translateX(-25px) rotate(-45deg);
+  transform: translateY(10%) translateX(-180px) rotate(-45deg);
 }
 
 .link-blk {
@@ -674,8 +675,8 @@ footer {
   }
 
   .hero-txt h1 {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
   }
 
   .hero-txt::before {
