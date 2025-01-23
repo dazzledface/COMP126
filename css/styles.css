@@ -59,6 +59,8 @@ h4 {
   line-height: 2.8rem;
 }
 
+
+
 b {
   font-family: "HK Grotesk SemiBold";
 }
@@ -286,9 +288,11 @@ li:hover .nav-link:hover:after {
   border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.07) 3px 3px 5px;
   text-align: center;
-  margin-top: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  margin: 1rem;
+}
+
+.even-item a {
+ padding: 1rem 2rem;
 }
 
 .item-height {
