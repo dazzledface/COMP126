@@ -270,11 +270,10 @@ li:hover .nav-link:hover:after {
 
 .even-row {
   display: flex;
-  justify-content: flex-start;
-  align-items: stretch;
-  column-gap: 1rem;
+  justify-content: space-between;
+  gap: 3rem;
   flex-wrap: wrap;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .even-item {
@@ -283,16 +282,15 @@ li:hover .nav-link:hover:after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 140px;
   flex: 1;
   border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.07) 3px 3px 5px;
   text-align: center;
-  margin: 1rem;
+  min-width: 140px;
 }
 
 .even-item a {
- padding: 1rem 2rem;
+ padding: 2rem;
 }
 
 .item-height {
@@ -633,7 +631,7 @@ footer {
 }
 
 .project {
-  width: 90%;
+  width: 75%;
   padding: 0rem 1rem 1rem 1rem;
   margin: 0 auto;
 }
