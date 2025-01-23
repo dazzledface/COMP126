@@ -269,7 +269,7 @@ li:hover .nav-link:hover:after {
 .even-row {
   display: flex;
   justify-content: space-between;
-  gap: 3rem;
+  gap: 2rem;
   flex-wrap: wrap;
   margin-bottom: 2rem;
 }
@@ -286,10 +286,12 @@ li:hover .nav-link:hover:after {
   text-align: center;
   min-width: 140px;
   padding: 2rem;
+  flex-wrap: wrap;
 }
 
 .even-item a {
-  padding: 2rem;
+  display: block;
+  padding: 0 2rem;
 }
 
 .item-height {
