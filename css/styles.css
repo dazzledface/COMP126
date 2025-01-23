@@ -288,13 +288,12 @@ li:hover .nav-link:hover:after {
   min-width: 140px;
   padding: 2rem;
   flex-wrap: wrap;
-  
+  margin-top: 2.5rem;
 }
 
 .even-item a {
-   display: block;
+  display: block;
   padding: 0 2rem;
-
 }
 
 .item-height {
