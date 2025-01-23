@@ -42,7 +42,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   font-family: "HK Grotesk Regular";
   line-height: 2.6rem;
@@ -58,8 +58,6 @@ h4 {
   margin-inline-end: 0px;
   line-height: 2.8rem;
 }
-
-
 
 b {
   font-family: "HK Grotesk SemiBold";
@@ -287,10 +285,11 @@ li:hover .nav-link:hover:after {
   box-shadow: rgba(0, 0, 0, 0.07) 3px 3px 5px;
   text-align: center;
   min-width: 140px;
+  padding: 2rem;
 }
 
 .even-item a {
- padding: 2rem;
+  padding: 2rem;
 }
 
 .item-height {
@@ -631,7 +630,7 @@ footer {
 }
 
 .project {
-  width: 75%;
+  width: 85%;
   padding: 0rem 1rem 1rem 1rem;
   margin: 0 auto;
 }
@@ -763,6 +762,12 @@ footer {
     margin-bottom: 2rem;
     text-align: center;
   }
+
+  .project {
+    width: 95%;
+    padding: 0rem 1rem 1rem 1rem;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -773,6 +778,11 @@ footer {
     overflow: hidden;
   }
 
+  .project {
+    width: 95%;
+    padding: 0rem 1rem 1rem 1rem;
+    margin: 0 auto;
+  }
   /*
 
    .even-row {
