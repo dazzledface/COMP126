@@ -74,7 +74,8 @@ a {
   color: black;
 }
 
-a:hover {
+a:hover,
+a:focus {
   text-decoration: none;
 }
 
@@ -164,11 +165,13 @@ header {
   transition: all 0.3s;
 }
 
-li:hover .nav-link:after {
+li:hover .nav-link:after,
+li:focus .nav-link:after {
   transform: translateY(-0.6rem);
 }
 
-li:hover .nav-link:hover:after {
+li:hover .nav-link:hover:after,
+li:focus .nav-link:focus:after {
   opacity: 1;
   transform: translateY(0rem);
 }
@@ -393,7 +396,8 @@ li:hover .nav-link:hover:after {
   margin-left: 2rem;
 }
 
-.btn-diagonal:hover a {
+.btn-diagonal:hover a,
+.btn-diagonal:focus a {
   color: white;
   text-decoration: none;
 }
@@ -414,7 +418,8 @@ li:hover .nav-link:hover:after {
   transition: transform 0.3s;
 }
 
-.btn-diagonal:hover::after {
+.btn-diagonal:hover::after,
+.btn-diagonal:focus::after {
   transform: translateY(10%) translateX(-25px) rotate(-45deg);
 }
 
@@ -445,7 +450,8 @@ li:hover .nav-link:hover:after {
   line-height: 0rem;
 }
 
-.btn-diagonal-lg:hover a {
+.btn-diagonal-lg:hover a,
+.btn-diagonal-lg:focus a {
   color: white;
   text-decoration: none;
 }
@@ -466,7 +472,8 @@ li:hover .nav-link:hover:after {
   transition: transform 0.35s;
 }
 
-.btn-diagonal-lg:hover::after {
+.btn-diagonal-lg:hover::after,
+.btn-diagonal-lg:focus::after {
   transform: translateY(10%) translateX(-180px) rotate(-45deg);
 }
 
@@ -598,7 +605,8 @@ footer {
   border-radius: 12px;
 }
 
-.link-lg:hover {
+.link-lg:hover,
+.link-lg:focus {
   color: #34d1bf;
   transition: all 0.3s;
 }
