@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 400;
   margin-block-start: 0em;
   margin-block-end: 0em;
@@ -41,9 +41,10 @@ h2 {
   min-height: 100vh;
 }
 
-h3 {
-  font-size: 1.8rem;
-  font-weight: 400;
+h3,
+h3 > a {
+  font-size: 2rem;
+  font-weight: 600;
   font-family: "HK Grotesk Regular";
   line-height: 2.6rem;
 }
@@ -72,6 +73,11 @@ a {
   font-size: 1.6rem;
   display: inline-block;
   color: black;
+}
+
+hr {
+   width: 40%;
+   margin: 2rem auto 3.5rem auto;
 }
 
 a:hover,
