@@ -302,7 +302,6 @@ li:focus .nav-link:focus:after {
 
 .even-item a {
   display: block;
-  padding: 0 2rem;
 }
 
 .item-height {
